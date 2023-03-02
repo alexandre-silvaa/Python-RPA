@@ -1,15 +1,15 @@
-#script que abre o terminal linux e o editor de texto
+#script que abre o executar e o editor de texto
 import pyautogui as posicaoAbreNotepad
 
 #hotkey permite usar mais de uma tecla para executar comandos
 #abre o terminal linux
-posicaoAbreNotepad.hotkey('ctrl','alt','t')
+posicaoAbreNotepad.hotkey('win','r')
 
 #Tempo de espera
 posicaoAbreNotepad.sleep(2)
 
 #digite "xed", comando para abrir o editor de texto no terminal
-posicaoAbreNotepad.typewrite('xed')
+posicaoAbreNotepad.typewrite('notepad')
 
 #Aperta a tecla enter
 posicaoAbreNotepad.press('enter')
