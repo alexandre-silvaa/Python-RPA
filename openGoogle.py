@@ -2,26 +2,22 @@
 import pyautogui as posicaoAbrirGoogle
 
 #Tempo de espera
-posicaoAbrirGoogle.sleep(4)
+posicaoAbrirGoogle.sleep(2)
 
-### um monitor ###
-#posicaoAbrirGoogle.moveTo(x=18, y=1061)
-#posicaoAbrirGoogle.click(x=18, y=1061) 
-
-### dois monitores ###
-posicaoAbrirGoogle.moveTo(x=1297, y=1061) 
-posicaoAbrirGoogle.click(x=1297, y=1061) 
-
+#move o mouse
+posicaoAbrirGoogle.moveTo(x=20, y=1060) 
+#clica com o mouse
+posicaoAbrirGoogle.click(x=20, y=1060) 
 #pesquisa no menu
 posicaoAbrirGoogle.typewrite('chrome') 
 
-### um monitor ###
-#posicaoAbrirGoogle.moveTo(x=406, y=572)
-#posicaoAbrirGoogle.click(x=406, y=572)
+#Tempo de espera
+posicaoAbrirGoogle.sleep(2)
 
-### dois monitores ###
-posicaoAbrirGoogle.moveTo(x=1679, y=572) 
-posicaoAbrirGoogle.click(x=1679, y=572)
+#move o mouse
+posicaoAbrirGoogle.moveTo(x=187, y=382)
+#clica com o mouse
+posicaoAbrirGoogle.click(x=187, y=382)
 
 #Tempo de espera
 posicaoAbrirGoogle.sleep(2)

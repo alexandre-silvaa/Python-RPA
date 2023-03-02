@@ -1,29 +1,21 @@
 #script que abre a calculadora do computador
 import pyautogui as posicaoMouse
 
+#move o mouse
+posicaoMouse.moveTo(x=20, y=1060) 
+#clica no menu inciar
+posicaoMouse.click(x=20, y=1060) 
+
 #Tempo de espera
 posicaoMouse.sleep(2)
-#print(posicaoMouse.position()) #print na tela a posição do mouse após os segundos definidos acima
-
-#move o mouse
-#posicaoMouse.moveTo(x=18, y=1061) #um monitor
-#clica no menu inciar
-#posicaoMouse.click(x=18, y=1061) 
-
-#move o mouse
-posicaoMouse.moveTo(x=1297, y=1061) #dois monitores
-#clica no menu inciar
-posicaoMouse.click(x=1297, y=1061) 
 
 #procura por calculadora no menu iniciar
 posicaoMouse.typewrite('calculadora') 
 
-#move o mouse até o app calculadora
-#posicaoMouse.moveTo(x=406, y=572) #um monitor
-#clica em calculadora
-#posicaoMouse.click(x=406, y=572)
+#Tempo de espera
+posicaoMouse.sleep(2)
 
 #move o mouse até o app calculadora
-posicaoMouse.moveTo(x=1679, y=572) #dois monitores
+posicaoMouse.moveTo(x=187, y=382)
 #clica em calculadora
-posicaoMouse.click(x=1679, y=572)
+posicaoMouse.click(x=187, y=382)
